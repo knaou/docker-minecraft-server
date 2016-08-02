@@ -1,0 +1,8 @@
+server:
+    image: knaou/minecraft_server
+    ports:
+        - 25565:25565
+    volumes:
+        - ./world:/minecraft_server/world
+        - ./server.properties:/minecraft_server/server.properties
+

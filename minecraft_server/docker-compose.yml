@@ -1,4 +1,6 @@
-server:
+version: '2'
+services:
+  server:
     image: knaou/minecraft_server
     ports:
         - 25565:25565

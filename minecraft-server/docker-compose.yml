@@ -1,7 +1,7 @@
 version: '2'
 services:
   server:
-      image: knaou/minecraft-server
+    image: knaou/minecraft-server
     ports:
         - 25565:25565
     volumes:

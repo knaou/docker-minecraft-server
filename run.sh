@@ -2,4 +2,5 @@
 
 cd /minecraft_server
 echo "eula=true" > eula.txt
-exec /run.sh
+java -jar /minecraft_server.jar
+
